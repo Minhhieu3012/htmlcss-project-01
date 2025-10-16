@@ -411,6 +411,42 @@ a {
     background: #E9E9E9;
 }
 
+.stats .avatar-block {
+    display: flex;
+    flex-wrap: wrap; /* xuống dòng */
+    gap: 16px 14px; /* 16px theo chiều dọc, 14px theo chiều ngang */
+    margin-top: 26px;
+}
+
+.stats .avatar-group {
+    display: flex;
+}
+
+.stats .avatar {
+    /* Cách 2: căn giữa chữ avatar */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* ------------------------------ */
+    width: 16px;
+    height: 16px;
+    margin-left: -3px; /* chồng lên nhau */
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+.stats .avatar-color-1 {
+    background: #1F3BB1;
+    font-weight: 450;
+    font-size: 0.7rem;
+    /* Cách 1: căn giữa chữ avatar */
+    /* line-height: 16px;
+    text-align: center; */
+    /* ------------------------------ */
+    letter-spacing: -0.02em;
+    color: #fff;
+}
+
 .stats .img-block .image-stats {
     margin-left: auto; /* canh phải */
     display: block; 
