@@ -407,7 +407,7 @@ a {
 
 .stats-trend .separate {
     margin-top: 25px;
-    height: 1px;
+    height: 1.2px;
     background: #E9E9E9;
 }
 
@@ -433,6 +433,10 @@ a {
     margin-left: -3px; /* chồng lên nhau */
     object-fit: cover;
     border-radius: 50%;
+}
+
+.stats .avatar:first-child {
+    margin-left: 0; /* ảnh đầu tiên không bị trừ margin */
 }
 
 .stats .avatar-color-1 {
@@ -484,4 +488,23 @@ a {
     font-size: 1.6rem;
     line-height: 1.88;
     color: #5A6473;
+}
+
+.stats .row-qty {
+    padding: 0 32px; /* 228px - 196px */
+    justify-content: space-between;
+    margin-top: 110px;
+}
+
+.stats .qty {
+    font-weight: 600;
+    font-size: 6.4rem;
+    color: #000000;
+}
+
+.stats .qty-desc {
+    margin-top: 24px;
+    font-weight: 500;
+    font-size: 1.8rem;
+    color:#7B8087;
 }
