@@ -8,7 +8,7 @@
 
 html,
 body {
-  scroll-behavior: smooth; /* cuộn mượt mà khi bấm vào thẻ a có href liên kết trong trang */
+  scroll-behavior: smooth;
 }
 
 html {
@@ -60,15 +60,15 @@ a {
   background: #e6f0ff;
   padding-top: 26px;
   position: sticky;
-  top: -26px; /* để khớp với padding-top */
-  z-index: 1; /* ưu tiên hiển thị trên các phần tử khác, cao hơn nội dung layout */
+  top: -26px;
+  z-index: 1;
 }
 
 .hero-wrap {
   position: relative;
   display: flex;
   flex-direction: column;
-  justify-content: center; /* canh giữa theo chiều dọc */
+  justify-content: center;
   background: #e6f0ff;
   height: calc(100vh - 90px);
 }
@@ -211,7 +211,7 @@ a {
   content: "";
   top: -10px;
   left: 50%;
-  transform: translateX(-50%); /* x la chieu ngang */
+  transform: translateX(-50%);
   position: absolute;
   display: inline-block;
   width: 41px;
@@ -320,7 +320,7 @@ a {
 }
 
 .featured .item {
-  flex: 1; /* kích thước của thẻ cha sẽ chia đều cho thẻ con */
+  flex: 1;
   background: #fff;
   border-radius: 12px;
 }
@@ -328,7 +328,7 @@ a {
 .featured .item .thumb {
   width: 100%;
   height: 227px;
-  object-fit: cover; /* đúng tỉ lệ ảnh và lấp đầy khung hình*/
+  object-fit: cover;
   border-top-left-radius: 12px;
   border-top-right-radius: 12px;
 }
@@ -350,7 +350,7 @@ a {
   font-size: 1.4rem;
   line-height: 1.5; /* 21 / 14 */
   color: #a3a6ab;
-  word-break: break-all; /* nó sẽ bẻ xuống nếu văn bản không có dấu cách, tránh bị hỏng giao diện */
+  word-break: break-all;
 }
 
 .featured .item .info {
@@ -438,8 +438,8 @@ a {
 
 .stats .avatar-block {
   display: flex;
-  flex-wrap: wrap; /* xuống dòng */
-  gap: 16px 14px; /* 16px theo chiều dọc, 14px theo chiều ngang */
+  flex-wrap: wrap;
+  gap: 16px 14px;
   margin-top: 26px;
 }
 
@@ -455,13 +455,13 @@ a {
   /* ------------------------------ */
   width: 16px;
   height: 16px;
-  margin-left: -3px; /* chồng lên nhau */
+  margin-left: -3px;
   object-fit: cover;
   border-radius: 50%;
 }
 
 .stats .avatar:first-child {
-  margin-left: 0; /* ảnh đầu tiên không bị trừ margin */
+  margin-left: 0;
 }
 
 .stats .avatar-color-1 {
@@ -477,7 +477,7 @@ a {
 }
 
 .stats .img-block .image-stats {
-  margin-left: auto; /* canh phải */
+  margin-left: auto;
   display: block;
   width: 400px;
   height: 460px;
@@ -550,7 +550,6 @@ a {
 
 .subscription .info {
   width: 671px;
-  /* max-width: 100%; Dùng để xử lý responsive */
   padding: 0 80px;
 }
 
@@ -598,7 +597,7 @@ a {
 }
 
 .footer .heading {
-  font-family: Lato, sans-serif; /* sans-serif fallback */
+  font-family: Lato, sans-serif;
   font-weight: 700;
   font-size: 2rem;
   color: #1c1c1d;
@@ -618,16 +617,16 @@ a {
   font-weight: 400;
   font-size: 1.6rem;
   color: #7a7a7e;
-  white-space: nowrap; /* không xuống dòng */
+  white-space: nowrap;
 }
 
 .footer .desc {
-  white-space: normal; /* cho phép xuống dòng */
+  white-space: normal;
   line-height: 1.75;
 }
 
 .footer .social {
-  display: flex; /* cho các icon nằm ngang */
+  display: flex;
   margin-top: 40px;
 }
 
